@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alarm"
+    android:background="#627075"
+    >
+
+
+    <TextView
+        android:id="@+id/selectedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="633dp"
+        android:text="08 : 45 PM"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/selectTimebtn"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="660dp"
+        android:height="70dp"
+        android:text="Select Time"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/reasonofalarm"
+        android:layout_width="279dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="503dp"
+        android:text="Reason Of Alarm"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reasontyped"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="478dp"
+        android:hint="Reason..."
+        android:textColorHint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/setreason"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="321dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="390dp"
+        android:text="Set"
+        android:textSize="10dp" />
+
+    <ImageButton
+        android:id="@+id/imagebtnforreason"
+        android:layout_width="68dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="410dp"
+        android:background="@color/white"
+        android:src="@drawable/baseline_mic_pic" />
+
+    <Button
+        android:id="@+id/setAlarmBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="276dp"
+        android:height="70dp"
+        android:text="Set Alarm"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/CancelAlarmBtn"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="245dp"
+        android:layout_marginBottom="185dp"
+        android:height="70dp"
+        android:text="Cancel Alarm"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+
+</RelativeLayout>

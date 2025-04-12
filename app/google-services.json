@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1055375909330",
+    "project_id": "clockdiary-dc119",
+    "storage_bucket": "clockdiary-dc119.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055375909330:android:5ac4fb3992ca7c992fa80b",
+        "android_client_info": {
+          "package_name": "com.example.clockdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055375909330-fvp3m7qfaiu3uv6ajj9r4fbj3bnmda10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx5oMwshuEUrWKpGtf6zugFVPaeAxjf0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055375909330-fvp3m7qfaiu3uv6ajj9r4fbj3bnmda10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

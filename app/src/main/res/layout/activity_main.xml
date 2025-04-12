@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="651dp"
+        android:text="Time Defines Everything"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <AnalogClock
+        android:id="@+id/analog_clock"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="307dp" />
+
+    <Button
+        android:id="@+id/dateandtime"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="100dp"
+        android:text="Date and Time"
+        android:textStyle="bold"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/alarmbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="100dp"
+        android:text="Alarm"
+        android:textStyle="bold"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/performance"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="746dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="20dp"
+        android:text="Performance"
+        android:textSize="13dp" />
+
+
+
+    <Button
+        android:id="@+id/diary"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="746dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="Diary"
+        android:textStyle="bold"
+        android:textSize="13dp" />
+
+
+
+</RelativeLayout>
